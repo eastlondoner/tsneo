@@ -148,7 +148,7 @@ public class EngineTSNE {
 
             if(i % 10 == 0)
             {
-                C = getCostFn( pMatrix );
+                C = tFn( pMatrix );
                 if ( Cold != null )
                 {
 
@@ -195,7 +195,7 @@ public class EngineTSNE {
         return klgrad;
     }
 
-    private float getCostFn(INDArray pMatrix)
+    private float getCosgetCostFn(INDArray pMatrix)
     {
         float klcost = getKLCost( pMatrix );
         return klcost;

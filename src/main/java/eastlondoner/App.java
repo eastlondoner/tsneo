@@ -99,7 +99,6 @@ public class App
             }
         }
 
-
     }
 
     private static void importLesMis(BasicCypher c) throws IOException
